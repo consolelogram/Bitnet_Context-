@@ -1,0 +1,73 @@
+{'torch.bfloat16': 2412820480}
+dtype: torch.bfloat16
+shape: torch.Size([2560, 2560])
+min: -39.75
+max: 37.0
+mean: 0.0013580322265625
+
+Scanning layers...
+
+
+Layer: model.layers.0.self_attn.q_proj.weight
+Mean |W|: 1.2189
+Outliers >10: 0.00389
+Outliers >20: 0.00002
+Outliers >30: 0.00000
+Zero ratio: 0.5083
+Recon error (layer scale): 0.7648
+Recon error (channel scale): 0.6444
+
+Layer: model.layers.5.self_attn.q_proj.weight
+Mean |W|: 1.2881
+Outliers >10: 0.00746
+Outliers >20: 0.00023
+Outliers >30: 0.00002
+Zero ratio: 0.4523
+Recon error (layer scale): 0.7819
+Recon error (channel scale): 0.6572
+
+Layer: model.layers.10.self_attn.q_proj.weight
+Mean |W|: 1.6026
+Outliers >10: 0.01946
+Outliers >20: 0.00157
+Outliers >30: 0.00009
+Zero ratio: 0.5087
+Recon error (layer scale): 0.8103
+Recon error (channel scale): 0.6729
+
+Layer: model.layers.15.self_attn.q_proj.weight
+Mean |W|: 1.6775
+Outliers >10: 0.01300
+Outliers >20: 0.00021
+Outliers >30: 0.00000
+Zero ratio: 0.4459
+Recon error (layer scale): 0.7584
+Recon error (channel scale): 0.7008
+
+Layer: model.layers.20.self_attn.q_proj.weight
+Mean |W|: 1.8414
+Outliers >10: 0.02797
+Outliers >20: 0.00253
+Outliers >30: 0.00015
+Zero ratio: 0.4854
+Recon error (layer scale): 0.8074
+Recon error (channel scale): 0.6838
+
+Layer: model.layers.25.self_attn.q_proj.weight
+Mean |W|: 1.4664
+Outliers >10: 0.00864
+Outliers >20: 0.00014
+Outliers >30: 0.00000
+Zero ratio: 0.4464
+Recon error (layer scale): 0.7626
+Recon error (channel scale): 0.7061
+
+Layer: model.layers.29.self_attn.q_proj.weight
+Mean |W|: 1.1274
+Outliers >10: 0.00058
+Outliers >20: 0.00000
+Outliers >30: 0.00000
+Zero ratio: 0.4236
+Recon error (layer scale): 0.7086
+Recon error (channel scale): 0.6833
+
